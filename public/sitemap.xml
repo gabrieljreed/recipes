@@ -4,21 +4,21 @@
   
     
       <url>
-            <loc>//localhost:1313/</loc>
+            <loc>http://localhost:1313/recipes/</loc>
             <lastmod>2026-06-01T21:37:32-07:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>//localhost:1313/recipes/</loc>
+            <loc>http://localhost:1313/recipes/recipes/</loc>
             <lastmod>2026-06-01T21:37:32-07:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>//localhost:1313/recipes/test/</loc>
+            <loc>http://localhost:1313/recipes/recipes/test/</loc>
             <lastmod>2026-06-01T21:37:32-07:00</lastmod>
           </url>
     
@@ -31,13 +31,13 @@
   
     
       <url>
-            <loc>//localhost:1313/recipes/chicken-au-poivre/</loc>
+            <loc>http://localhost:1313/recipes/recipes/chicken-au-poivre/</loc>
           </url>
     
   
     
       <url>
-            <loc>//localhost:1313/recipes/chili/</loc>
+            <loc>http://localhost:1313/recipes/recipes/chili/</loc>
           </url>
     
   
