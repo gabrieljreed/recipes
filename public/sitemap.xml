@@ -11,13 +11,6 @@
   
     
       <url>
-            <loc>http://localhost:1313/recipes/recipes/</loc>
-            <lastmod>2026-06-01T21:37:32-07:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>http://localhost:1313/recipes/recipes/test/</loc>
             <lastmod>2026-06-01T21:37:32-07:00</lastmod>
           </url>
