@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <article class="mx-auto max-w-7xl px-4 pb-16 pt-10 sm:px-6 lg:px-8">
+    <header class="mb-10">
+      {{ with .Date }}
+        <p class="text-sm text-slate-500 dark:text-slate-400">{{ .Format "January 2, 2006" }}</p>
+      {{ end }}
+      <h1 class="mt-2 text-4xl font-extrabold tracking-tight text-slate-900 dark:text-slate-100">{{ .Title }}</h1>
+      {{ with .Params.tags }}
+        <div class="mt-4 flex flex-wrap gap-2">
+          {{ range $tag := . }}
+            <a href="{{ "/tags/" | relURL }}{{ $tag | urlize }}/" class="inline-flex rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200">{{ $tag }}</a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </header>
+
+    <section class="prose prose-lg mx-auto w-full max-w-full !max-w-full dark:prose-invert prose-p:mt-1 prose-p:mb-1 prose-h2:mt-5 prose-h2:mb-2 prose-h3:mt-4 prose-h3:mb-1 prose-ul:list-disc prose-ul:pl-5 prose-ul:space-y-1 prose-ol:pl-5 prose-ol:space-y-1 prose-img:rounded-xl prose-a:no-underline prose-a:font-semibold prose-a:text-primary-700 dark:prose-a:text-primary-300">
+      {{ .Content }}
+    </section>
+  </article>
+{{ end }}
