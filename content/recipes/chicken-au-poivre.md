@@ -3,32 +3,32 @@ title = "Chicken au Poivre"
 tags = ["dinner", "chicken", "creamy"]
 +++
 
-# Ingredients
+## Ingredients
 
-## Chicken
+### Chicken
 
 - 2 large chicken breasts, skinless & boneless (250–300g / 8–10oz each)
 - 3/4 tsp cooking salt / kosher salt
 - 2 tbsp vegetable oil, or any other neutral flavoured oil
 
-## Sauce
+### Sauce
 
 - 2 tsp whole black peppercorns, coarsely crushed
 - 1/3 cup brandy or cognac, or masala
 - 1 1/2 cups beef stock / broth, low sodium
 - 3/4 cup thickened / heavy cream, or any other full fat cream
 
-# Instructions
+## Instructions
 
-## Abbreviated Recipe
+### Abbreviated Recipe
 
 Season chicken with salt. Sear in oil until golden. Remove. Deglaze with cognac. Add beef stock, simmer for 4 minutes . Pour cream, add pepper and simmer for 5 minutes. Return chicken, cook for 3 minutes while basting. Serve immediately.
 
-## Full Recipe
+### Full Recipe
 
 Prepare the chicken – Cut each chicken breast in half horizontally to make 4 thin steaks and sprinkle both sides with salt (If you’re wondering why I don’t season the chicken with pepper it’s because once combined with the sauce, it would make the dish too peppery.)
 
-### Cooking and Sauce
+#### Cooking and Sauce
 
 Sear the chicken – Heat oil in a large pan (28cm / 11") over high heat. Add chicken and cook 2–3 minutes per side until golden. Remove to a plate and rest (don’t cover). If you think your chicken is still a little bit under after resting, don’t worry it will finish cooking later in the sauce.
 
@@ -38,7 +38,7 @@ Turn the heat back on high. Add beef stock. Simmer rapidly for 4 minutes, until 
 
 Stir in cream and crushed pepper. Lower the heat to medium high. Simmer for 3-4 minutes, to reduce the sauce until it thickens enough to lightly coat the back of a spoon. Stir and scrape the sides of the pan as it reduces. Keep in mind that some stoves run stronger than others. If the heat is gentler, the sauce may take a little longer to reduce, so just allow a bit of extra time.
 
-### Finish
+#### Finish
 
 Simmer – Turn heat down to medium. Return chicken and resting juices to the pan. Cook 2–3 minutes, spooning the sauce over the chicken, until it is warmed through and the sauce darkens in colour and thickens a little more. When you drag a spoon through the pan, the sauce should slowly flow back together. If it thickens too much, add a splash of cream or water to loosen.
 

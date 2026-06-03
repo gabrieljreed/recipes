@@ -5,7 +5,7 @@ title = 'Chipotle Chicken'
 tags = ["dinner", "chicken", "mexican", "marinade"]
 +++
 
-# Ingredients
+## Ingredients
 
 - 1 tsp cumin
 - 4 garlic cloves
@@ -17,14 +17,14 @@ tags = ["dinner", "chicken", "mexican", "marinade"]
 - 1 7oz can chipotle peppers in adobo sauce (only use 4 peppers and all sauce)
 - 1/2 cup water (takes out flavor if 3/4)
 
-# Instructions
+## Instructions
 
 - Blend ingredients
 
-# Notes
+## Notes
 
 4 peppers was a bit spicy
 
-# Original recipe
+## Original recipe
 
 [Link](https://youtu.be/7umUJ0lAVbQ?si=ZcqZRcv26bLO9DBz)

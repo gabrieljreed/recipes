@@ -5,7 +5,7 @@ title = 'Blueberry Baked Oatmeal'
 tags = ['breakfast', 'oats', 'blueberry']
 +++
 
-# Ingredients
+## Ingredients
 
 - 4 cups old-fashioned oats
 - 1 1/2 teaspoons baking powder
@@ -20,7 +20,7 @@ tags = ['breakfast', 'oats', 'blueberry']
 - 1/3 cup granulated sugar
 - up to 1/2 cup blueberry preserves
 
-# Directions
+## Directions
 
 - In large bowl, mix together oats, milk, baking powder, salt, 2 eggs, melted butter, vanilla, and frozen blueberries.
 - Pour into a greased 13x9-inch (3-quart) baking dish baking dish; let stand 15 minutes. Preheat oven to 350°F.
