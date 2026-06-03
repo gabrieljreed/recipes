@@ -17,6 +17,9 @@ mainSections = ["recipes"]
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
+[permalinks]
+  recipes = "/:slug/"
+
 [privacy]
   [privacy.vimeo]
     enableDNT = true

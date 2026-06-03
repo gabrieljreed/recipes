@@ -13,9 +13,9 @@
 			<atom:link href="http://localhost:1313/recipes/tags/creamy/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Chicken au Poivre</title>
-				<link>http://localhost:1313/recipes/recipes/chicken-au-poivre/</link>
+				<link>http://localhost:1313/recipes/chicken-au-poivre/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/recipes/recipes/chicken-au-poivre/</guid>
+				<guid>http://localhost:1313/recipes/chicken-au-poivre/</guid>
 				<description></description>
 			</item>
 	</channel>
