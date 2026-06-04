@@ -3,6 +3,8 @@ title = "Chicken au Poivre"
 tags = ["dinner", "chicken", "creamy"]
 +++
 
+[Original recipe](https://www.recipetineats.com/french-chicken-au-poivre-sauce/)
+
 ## Ingredients
 
 ### Chicken

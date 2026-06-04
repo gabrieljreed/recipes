@@ -2,8 +2,10 @@
 date = '2026-06-02T22:45:45-07:00'
 draft = false
 title = 'Blueberry Baked Oatmeal'
-tags = ['breakfast', 'oats', 'blueberry']
+tags = ['breakfast', 'oats', 'blueberry', 'sweet']
 +++
+
+[Original recipe](https://www.youtube.com/watch?v=O-hqFCLsydU)
 
 ## Ingredients
 

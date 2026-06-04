@@ -5,6 +5,8 @@ title = 'Asian Chili Chicken'
 tags = ['dinner', 'chicken', 'spicy', 'asian']
 +++
 
+[Original recipe](https://www.recipetineats.com/asian-chilli-chicken/)
+
 ## Ingredients
 
 ### Chicken

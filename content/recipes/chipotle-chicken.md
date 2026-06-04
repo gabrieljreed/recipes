@@ -5,6 +5,8 @@ title = 'Chipotle Chicken'
 tags = ["dinner", "chicken", "mexican", "marinade"]
 +++
 
+[Original recipe](https://youtu.be/7umUJ0lAVbQ?si=ZcqZRcv26bLO9DBz)
+
 ## Ingredients
 
 - 1 tsp cumin
@@ -24,7 +26,3 @@ tags = ["dinner", "chicken", "mexican", "marinade"]
 ## Notes
 
 4 peppers was a bit spicy
-
-## Original recipe
-
-[Link](https://youtu.be/7umUJ0lAVbQ?si=ZcqZRcv26bLO9DBz)
