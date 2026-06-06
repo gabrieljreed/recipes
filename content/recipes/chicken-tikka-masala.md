@@ -7,19 +7,27 @@ tags = ["indian", "chicken", "dinner"]
 
 ## Ingredients
 
-### Chicken Tikka
+### Chicken Marinade
 
 - 2 lb boneless, skinless chicken thighs
+
+#### Marinade 1
+
 - 1 tbsp kosher salt
-- 2 tsp red chili powder (total used across marinade)
-- 6 garlic cloves, mashed into a paste
 - 1 inch ginger, mashed into a paste
 - Juice of 2 lemons
+- 1 tsp red chili powder
+- 3 garlic cloves, mashed into a paste
+
+#### Marinade 2
+
 - 1 cup plain yogurt
 - 1/4 cup canola oil
 - 1 tbsp garam masala
 - 2 tsp ground turmeric
-- 2 tbsp unsalted butter, melted
+- 1 tsp red chili powder
+- 3 garlic cloves, mashed into a paste
+
 
 ### Makhni Gravy
 
