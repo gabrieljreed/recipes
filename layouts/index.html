@@ -1,4 +1,23 @@
 {{ define "main" }}
+  <header class="sticky top-0 z-50 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="{{ "/" | relURL }}" class="font-semibold text-slate-900 dark:text-slate-100 text-lg hover:no-underline">
+          {{ .Site.Title }}
+        </a>
+        <button
+          id="dark-mode-toggle"
+          onclick="toggleColorScheme()"
+          class="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+          title="Toggle dark mode"
+          aria-label="Toggle dark mode"
+        >
+          🌙
+        </button>
+      </div>
+    </div>
+  </header>
+
   <section class="prose mx-auto my-12 px-4 sm:px-6 lg:px-8 dark:prose-invert">
     <div class="mt-10 space-y-10">
       <div class="grid gap-10 lg:grid-cols-2">
@@ -29,4 +48,63 @@
       </div>
     </div>
   </section>
+
+  <footer class="mt-12 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+      <p class="text-center text-sm text-slate-600 dark:text-slate-400">
+        &copy; {{ now.Year }} {{ .Site.Title }}. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Dark mode toggle functionality
+    const STORAGE_KEY = 'color-scheme';
+    const LIGHT_MODE = 'light';
+    const DARK_MODE = 'dark';
+
+    function getColorScheme() {
+        const stored = localStorage.getItem(STORAGE_KEY);
+        return stored || DARK_MODE;
+    }
+
+    function applyColorScheme(scheme) {
+        const html = document.documentElement;
+        if (scheme === LIGHT_MODE) {
+            html.classList.remove('dark');
+        } else {
+            html.classList.add('dark');
+        }
+        localStorage.setItem(STORAGE_KEY, scheme);
+    }
+
+    function toggleColorScheme() {
+        const current = getColorScheme();
+        const newScheme = current === LIGHT_MODE ? DARK_MODE : LIGHT_MODE;
+        applyColorScheme(newScheme);
+        updateToggleButton(newScheme);
+    }
+
+    function updateToggleButton(scheme) {
+        const button = document.getElementById('dark-mode-toggle');
+        if (button) {
+            if (scheme === LIGHT_MODE) {
+                button.innerHTML = '🌙';
+                button.title = 'Switch to dark mode';
+                button.setAttribute('aria-label', 'Switch to dark mode');
+            } else {
+                button.innerHTML = '☀️';
+                button.title = 'Switch to light mode';
+                button.setAttribute('aria-label', 'Switch to light mode');
+            }
+        }
+    }
+
+    // Initialize on load
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => updateToggleButton(getColorScheme()));
+    } else {
+        updateToggleButton(getColorScheme());
+    }
+  </script>
 {{ end }}
