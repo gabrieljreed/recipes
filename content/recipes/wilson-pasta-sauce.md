@@ -1,7 +1,7 @@
 +++
 date = '2026-06-03T18:01:07-07:00'
 draft = false
-title = 'Nona's Pasta Sauce'
+title = "Nona's Pasta Sauce"
 tags = ["pasta", "sauce", "dinner", "tomato"]
 +++
 
