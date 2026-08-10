@@ -1,8 +1,8 @@
 +++
 date = '2026-06-03T18:01:07-07:00'
 draft = false
-title = 'Wilson Pasta Sauce'
-tags = ["pasta", "sauce"]
+title = 'Nona's Pasta Sauce'
+tags = ["pasta", "sauce", "dinner", "tomato"]
 +++
 
 ## Ingredients
